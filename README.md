@@ -38,9 +38,9 @@ When you use run-sumeragi-test.sh script, you should exec below commands in the 
 ```
 # su - iroha
 
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-export IROHA_HOME=/usr/local/iroha
+$ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+$ export IROHA_HOME=/usr/local/iroha
 
-cd $IROHA_HOME/my_test_bin
-./sumeragi_test public
+$ cd $IROHA_HOME/my_test_bin
+$ ./sumeragi_test public
 ```
